@@ -40,7 +40,7 @@ void lineas() {
   }
   // Ending
   glEnd();
-  glFlush(); // Process all OpenGL routines as quickly as possible (To draw any primitives now to the frame buffer
+  glFlush(); // Process all OpenGL routines as quickly as possible (Draw any current primitives to the frame buffer)
 }
 
 int main(int argc, char** argv) {
